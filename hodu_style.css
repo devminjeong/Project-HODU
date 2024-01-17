@@ -1,0 +1,187 @@
+/******************** header ***********************/
+header{
+    background-color: #F2E9D8;
+}
+header nav{
+    width: 1278px;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header nav #hodu_logo_top{
+    object-fit: contain;
+}
+header .menu{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .title{
+    width: 1278px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1{
+    width: 695px;
+    font-size: 48px;
+}
+header p{
+    width: 420px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/******************** main images section ***********************/
+.main_images{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.representative{
+    width: 1278px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#lying_cat{
+    margin-right: 110px;
+}
+.image_list_title{
+    margin-left: auto;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 88px;
+}
+.image_list_title h2{
+    font-size: 48px;
+    color: #D97652;
+}
+.image_list_title span{
+    color: #D97652;
+}
+.example{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.list_example1, .list_example2{
+    width: 1278px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 72px;
+}
+.random_images{
+    display: flex;
+    justify-content: center;
+}
+.image_list{
+    width: 1278px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.load_images{
+    text-align: center;
+    margin: auto;
+}
+.image_list img {
+    width: 400px;
+    margin-bottom: 30px;
+}
+.main_images img{
+    border-radius: 30px;
+    box-shadow: 10px 10px 30px 0 #00000040;
+}
+
+/******************** map ***********************/
+.display_map{
+    width: 1278px;
+    margin: auto;
+}
+.display_map #line{
+    width: 1278px;
+    height: 1px;
+    background: #606367;
+    margin-bottom: 68px;
+}
+.display_map p{
+    margin-bottom: 48px;
+}
+.display_map #map{
+    width: 1278px;
+    height: 520px;
+    margin-bottom: 80px;
+}
+
+/******************** subscribe ***********************/
+.subscribe{
+    width: 1280px;
+    height: 200px;
+    position: absolute;
+    left: 0; right: 0;
+    margin: auto;
+    background: #263140;
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.subscribe_input{
+    width: 530px;
+    height: 60px;
+    background-color: white;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+}
+.subscribe_input #email_icon{
+    margin-left: 28px;
+    margin-right: 16px;
+}
+.subscribe_input #email_addr{
+    width: 175px;
+    border: none;
+    margin-right: 137px;
+}
+
+/******************** bottom image ***********************/
+.bottom_img{
+    height: 340px;
+    margin-top: 180px;
+    background-image: url("img_bottom.png");
+    background-position: center center;
+}
+
+/******************** footer ***********************/
+.footer_bar{
+    width: 1278px;
+    margin: auto;
+    padding-top: 58px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.icons{
+    width: 228px;
+    display: flex;
+    justify-content: space-between;
+}
+/******************** buttons style ***********************/
+.btns{
+    width: 140px;
+    height: 50px;
+    border: none;
+    border-radius: 40px;
+    background: #D97652;
+    color: white;
+    font-weight: bold;
+}
