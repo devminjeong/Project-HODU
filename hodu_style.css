@@ -216,3 +216,11 @@ header p{
 .modal_popup p{
     margin-bottom: 38px;
 }
+
+/******************** scroll top ***********************/
+#scroll_top{
+    position: fixed;
+    right: 30px;
+    bottom: 20px;
+    z-index: 10;
+}
