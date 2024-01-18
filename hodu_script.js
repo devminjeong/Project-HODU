@@ -80,3 +80,14 @@ imageContinue.addEventListener('click',(event)=>{
         }
     });
 });
+
+/******************** modal ***********************/
+let subscribeButton = document.getElementById("subscribe_btn");
+let modalClose = document.getElementById("close_modal");
+let modalPopup = document.querySelector(".modal");
+subscribeButton.addEventListener('click',()=>{
+    modalPopup.style.display = "flex";
+});
+modalClose.addEventListener('click',()=>{
+    modalPopup.style.display = "none"
+});
