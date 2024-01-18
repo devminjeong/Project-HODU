@@ -82,12 +82,15 @@ imageContinue.addEventListener('click',(event)=>{
 });
 
 /******************** modal ***********************/
-let subscribeButton = document.getElementById("subscribe_btn");
+let emailSubmit = document.querySelector(".subscribe_submit")
 let modalClose = document.getElementById("close_modal");
 let modalPopup = document.querySelector(".modal");
-subscribeButton.addEventListener('click',()=>{
+
+emailSubmit.addEventListener('submit', (event)=>{
+    event.preventDefault();
     modalPopup.style.display = "flex";
 });
+
 modalClose.addEventListener('click',()=>{
-    modalPopup.style.display = "none"
+    modalPopup.style.display = "none";
 });
